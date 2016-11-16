@@ -1,134 +1,67 @@
-/* Stylesheet by quackit.com */
-/* Modified by github.com/tengrrl */
+<!DOCTYPE html>
+<!-- Template by quackit.com -->
+<!-- Modified by github.com/tengrrl -->
+<html lang="en-US" xml:lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>1 Column Layout</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" id="font-awesome-css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css?ver=4.6.1" type="text/css" media="all" />
+	</head>
 
-/* Change the background color  */
-/* for the entire page here.    */
+	<body>
+    <div class="page">
+    <div class="ex1">
+    <nav>
+      <div class="innertube">
+        <iframe src="navigation/menu.html" height="58" width="100%" frameborder="0">
+          <a href="navigation/menu.html">Hmm, you are using a very old browser. Click here to go directly to the menu.</a>
+        </iframe>
+      </div>
+    </nav>
+		<header>
+			<div class="innertube">
+        <iframe src="navigation/header.html" height="86px" frameborder="0">
+    			<a href="navigation/header.html">Hmm, you are using a very old browser. Click here to go directly to the site header.</a>
+    		</iframe>
+			</div>
+		</header>
 
-div.page {
-  background: darkgray; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(left, #4d4d4d, black, black, black, #4d4d4d); /* Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(left, #4d4d4d, black, black, black, #4d4d4d); /* For Opera 11.6 to 12.0 */
-  background: -moz-linear-gradient(left, #4d4d4d, black, black, black, #4d4d4d); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to right, #4d4d4d, black, black, black, #4d4d4d); /* Standard syntax */  /* background-color: gray; */
-  width: 100%;
-}
+		<div id="wrapper">
 
-/* Change the border color for */
-/* the centered content here.  */
-div.ex1 {
-    width: 851px;
-    margin: auto;
-    float: center;
-    border: 6px solid darkgray;
-    background-color: #FFFFFF;
-}
+			<main>
+					<div class="innertube">
+            <!-- *****************************
+            Change the main content of the page below.                      *
+            ****************************** -->
+            <h1>Heading</h1>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <ul>
+              <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+              <li>Aliquam tincidunt mauris eu risus.</li>
+              <li>Vestibulum auctor dapibus neque.</li>
+            </ul>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h1>Heading</h1>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <h1>Heading</h1>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <h1>Heading</h1>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+				</div>
+			</main>
 
-  body {
-    margin:0;
-    padding:0;
-    font-family: Sans-Serif;
-    line-height: 1.5em;
-  }
 
-  /* Change the background image  */
-  /* here. Your image should be   */
-  /* 815px wide and 315px high.   */
-  header {
-    background-image: url("../images/burruss.jpg");
-    width: 851px;
-    height: 315px;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+		</div>
 
-  header h1 {
-    margin: 0;
-    padding-top: 15px;
-  }
-
-  main {
-    padding-bottom: 10010px;
-    margin-bottom: -10000px;
-    float: left;
-    width: 100%;
-  }
-
-  /* Change the background color   */
-  /* of the menu bar column below. */
-  nav {
-    padding-left: 0px;
-    background: #000;
-    overflow: hidden;
-  }
-
-  /* Change the background     */
-  /* color of the footer below */
-  footer {
-    clear: left;
-    width: 100%;
-    background: #ccc;
-    padding: 4px 0;
-  }
-
-  #wrapper {
-    overflow: hidden;
-  }
-
-  .innertube {
-    margin: 15px; /* Padding for content */
-    margin-top: 0;
-  }
-
-  p {
-    color: #000;
-  }
-
-  /* Additions to support the external */
-  /* iframe files */
-
-.site-header {
-    margin: 0;
-    padding-top: 15px;
-    font-family: Sans-Serif;
-    color: white;
-  }
-
-.site-footer{
-    text-align: left;
-    font-size: small;
-    padding: 0px 7px;
-    font-style: italic;
-  }
-
-.site-menu {
-text-align: left;
-margin: 0px 0 0 ;
-padding: 10px 0;
-overflow: hidden;
-}
-
-.site-menu ul{
-  list-style: none;
-  margin: 0 2px;
-  padding: 0;
-}
-
-.site-menu li {
-   display: inline-block;
-   padding: 0px 10px;
-}
-
-.site-menu a {
-  font-weight: normal;
-  padding: 0px 5px;
-  font-size: 18px;
-  color: #fff;
-  text-decoration: none;
-}
-
-/* Change the highlight     */
-/* color of the menu below */
-.site-menu a:hover {
-  color: orange;
-  text-decoration: none;
-}
+		<footer>
+			<div class="innertube">
+        <iframe src="navigation/footer.html" height="45px" width="100%" frameborder="0">
+    			<a href="navigation/footer.html">Hmm, you are using a very old browser. Click here to go directly to the site footer.</a>
+    		</iframe>
+			</div>
+		</footer>
+</div>
+</div>
+	</body>
+</html>
