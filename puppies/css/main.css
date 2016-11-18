@@ -5,7 +5,7 @@
 /* for the entire page here.    */
 
 div.page {
-  background: color: #660000; /* For browsers that do not support gradients */
+  background: darkgray; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(left, #4d4d4d, black, black, black, #4d4d4d); /* Safari 5.1 to 6.0 */
   background: -o-linear-gradient(left, #4d4d4d, black, black, black, #4d4d4d); /* For Opera 11.6 to 12.0 */
   background: -moz-linear-gradient(left, #4d4d4d, black, black, black, #4d4d4d); /* For Firefox 3.6 to 15 */
@@ -57,7 +57,7 @@ div.ex1 {
   /* of the menu bar column below. */
   nav {
     padding-left: 0px;
-    background: #000;
+    background: #660000;
     overflow: hidden;
   }
 
