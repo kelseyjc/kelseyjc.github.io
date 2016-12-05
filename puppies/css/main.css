@@ -5,7 +5,7 @@
 /* for the entire page here.    */
 
 div.page {
-  background: white; /* For browsers that do not support gradients */
+  background-color:white; /* For browsers that do not support gradients */
   width: 100%;
 }
 
