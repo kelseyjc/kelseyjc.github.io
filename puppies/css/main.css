@@ -30,9 +30,9 @@ div.ex1 {
   /* here. Your image should be   */
   /* 815px wide and 315px high.   */
   header {
-    background-image: url("../images/piper.jpg");
+    background-image: url("../images/IMG_1577.jpg");
     width: 851px;
-    height: 315px;
+    height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
   }
