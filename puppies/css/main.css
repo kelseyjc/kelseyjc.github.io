@@ -30,9 +30,9 @@ div.ex1 {
   /* here. Your image should be   */
   /* 815px wide and 315px high.   */
   header {
-    background-image: url("../images/IMG_1577.jpg");
-    width: 851px;
-    height: 400px;
+    background-image: url("../images/piper.jpg");
+    width: 815px;
+    height: 360px;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -85,8 +85,9 @@ div.ex1 {
 .site-header {
     margin: 0;
     padding-top: 10px;
-    font-family: sans-serif;
+    font-family: cursive;
     color: white;
+    font-size: 35px;
   }
 
 .site-footer{
